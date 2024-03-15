@@ -21,7 +21,7 @@
 # Employee Management System (EMS)
 
 # Define the file name to store employee data
-EMPLOYEE_FILE = "employee_data.txt"
+File_EMP = "employee_data.txt"
 
 
 def add_employee():
@@ -33,7 +33,7 @@ def add_employee():
         salary = input("Enter Employee Salary: ")
 
         # Append employee data to the file
-        with open(EMPLOYEE_FILE, "a") as file:
+        with open(File_EMP, "a") as file:
             file.write(f"{emp_id},{name},{position},{salary}\n")
         print("Employee added successfully!")
     except Exception as e:
@@ -43,7 +43,7 @@ def add_employee():
 def display_employees():
     """Display all employee details from the file."""
     try:
-        with open(EMPLOYEE_FILE, "r") as file:
+        with open(File_EMP, "r") as file:
             for line in file:
                 emp_id, name, position, salary = line.strip().split(",")
                 print(f"Employee ID: {emp_id}, Name: {name}, Position: {position}, Salary: {salary}")
