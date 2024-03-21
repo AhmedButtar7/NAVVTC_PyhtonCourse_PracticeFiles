@@ -7,5 +7,5 @@ print(arr)
 x = numpy.unique(arr)
 print(x)
 #sort the array using sort
-x = numpy.sort(arr)
-print("Sorted array is given as: ", x)
+y = numpy.sort(x)
+print("Sorted array is given as: ", y)
