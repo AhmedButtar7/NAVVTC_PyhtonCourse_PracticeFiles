@@ -1,6 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
+df = pd.read_csv('VehicleClassification.csv')
+plt.xlabel('Classification as Bike & Car')
+plt.ylabel('Verify Number of Wheels for Bike & Car')
+plt.title('Vehicle Classification Check')
+plt.bar(df['Classification'], df['Wheels'])
+plt.show()
 # Download the dataset
 download_url = "https://raw.githubusercontent.com/fivethirtyeight/data/master/college-majors/recent-grads.csv"
 df = pd.read_csv(download_url)
