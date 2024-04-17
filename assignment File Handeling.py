@@ -1,5 +1,4 @@
-# /*Create an Employee Management System (EMS) application that allows us to store and manage employee information. The application should be able to add new employees, display employee details, and save employee data to a file for future reference.
-#
+# /*Create an Employee Management System (EMS) application that allows us to store and manage employee information# . # The application should be able to add new employees# , display employee details, and save employee data to a file for future reference.
 # Requirements:
 #
 # The application should have options to:
