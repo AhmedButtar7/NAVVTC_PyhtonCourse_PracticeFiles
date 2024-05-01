@@ -26,8 +26,8 @@ else:
     print("It is a Bad Relation as R Squared Score is ", r2)
 
 # Plotting
-plt.scatter(train_x, mymodel(train_x), c='black', marker='o')
-plt.plot(train_x, mymodel(train_x), 'o:r')
+plt.scatter(train_x, mymodel(train_x), c='green')
+plt.plot(train_x, mymodel(train_x), linestyle='--')
 plt.title('Relational Graph')
 plt.xlabel('Weight')
 plt.ylabel('Wheels/Weight')
